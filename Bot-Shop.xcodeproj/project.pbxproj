@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		7AFA607C25E41EE2002A8FAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFA607B25E41EE2002A8FAC /* AppDelegate.swift */; };
 		7AFA607E25E41EE2002A8FAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFA607D25E41EE2002A8FAC /* SceneDelegate.swift */; };
-		7AFA608025E41EE2002A8FAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFA607F25E41EE2002A8FAC /* ViewController.swift */; };
-		7AFA608325E41EE2002A8FAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AFA608125E41EE2002A8FAC /* Main.storyboard */; };
 		7AFA608525E41EE3002A8FAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AFA608425E41EE3002A8FAC /* Assets.xcassets */; };
 		7AFA608825E41EE3002A8FAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AFA608625E41EE3002A8FAC /* LaunchScreen.storyboard */; };
+		7AFA609325E43167002A8FAC /* NewOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFA609225E43167002A8FAC /* NewOrderViewController.swift */; };
+		7AFA609725E431C6002A8FAC /* PastOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFA609625E431C6002A8FAC /* PastOrderViewController.swift */; };
+		7AFA609A25E43267002A8FAC /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFA609925E43267002A8FAC /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7AFA607825E41EE2002A8FAC /* Bot-Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bot-Shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AFA607B25E41EE2002A8FAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AFA607D25E41EE2002A8FAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7AFA607F25E41EE2002A8FAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7AFA608225E41EE2002A8FAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7AFA608425E41EE3002A8FAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AFA608725E41EE3002A8FAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AFA608925E41EE3002A8FAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AFA609225E43167002A8FAC /* NewOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewOrderViewController.swift; sourceTree = "<group>"; };
+		7AFA609625E431C6002A8FAC /* PastOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOrderViewController.swift; sourceTree = "<group>"; };
+		7AFA609925E43267002A8FAC /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +58,14 @@
 		7AFA607A25E41EE2002A8FAC /* Bot-Shop */ = {
 			isa = PBXGroup;
 			children = (
+				7AFA609225E43167002A8FAC /* NewOrderViewController.swift */,
 				7AFA607B25E41EE2002A8FAC /* AppDelegate.swift */,
 				7AFA607D25E41EE2002A8FAC /* SceneDelegate.swift */,
-				7AFA607F25E41EE2002A8FAC /* ViewController.swift */,
-				7AFA608125E41EE2002A8FAC /* Main.storyboard */,
 				7AFA608425E41EE3002A8FAC /* Assets.xcassets */,
 				7AFA608625E41EE3002A8FAC /* LaunchScreen.storyboard */,
 				7AFA608925E41EE3002A8FAC /* Info.plist */,
+				7AFA609625E431C6002A8FAC /* PastOrderViewController.swift */,
+				7AFA609925E43267002A8FAC /* TabBarController.swift */,
 			);
 			path = "Bot-Shop";
 			sourceTree = "<group>";
@@ -126,7 +129,6 @@
 			files = (
 				7AFA608825E41EE3002A8FAC /* LaunchScreen.storyboard in Resources */,
 				7AFA608525E41EE3002A8FAC /* Assets.xcassets in Resources */,
-				7AFA608325E41EE2002A8FAC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +139,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AFA608025E41EE2002A8FAC /* ViewController.swift in Sources */,
+				7AFA609325E43167002A8FAC /* NewOrderViewController.swift in Sources */,
 				7AFA607C25E41EE2002A8FAC /* AppDelegate.swift in Sources */,
 				7AFA607E25E41EE2002A8FAC /* SceneDelegate.swift in Sources */,
+				7AFA609A25E43267002A8FAC /* TabBarController.swift in Sources */,
+				7AFA609725E431C6002A8FAC /* PastOrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7AFA608125E41EE2002A8FAC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7AFA608225E41EE2002A8FAC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7AFA608625E41EE3002A8FAC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
