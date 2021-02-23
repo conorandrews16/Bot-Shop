@@ -1,24 +1,22 @@
 //
-//  PastOrderViewController.swift
+//  OrderList.swift
 //  Bot-Shop
 //
-//  Created by Conor Andrews on 22/02/2021.
+//  Created by Conor Andrews on 23/02/2021.
 //
 
 import Foundation
 import UIKit
 
-class PastOrderViewController: UIViewController {
-    
-    let orders = [
-        Order(title: "July 2020", image: UIImage(named: "box")!),
-        Order(title: "June 2020", image: UIImage(named: "box")!),
-        Order(title: "May 2020", image: UIImage(named: "box")!),
-        Order(title: "December 2019", image: UIImage(named: "box")!),
-        Order(title: "November 2019", image: UIImage(named: "box")!),
-        Order(title: "October 2019", image: UIImage(named: "box")!),
-        Order(title: "September 2019", image: UIImage(named: "box")!)
-    ]
+class OrderList: UIViewController {
+
+    let orders = [Order(title: "July 2020", image: UIImage(named: "box")!),
+    Order(title: "June 2020", image: UIImage(named: "box")!),
+    Order(title: "May 2020", image: UIImage(named: "box")!),
+    Order(title: "December 2019", image: UIImage(named: "box")!),
+    Order(title: "November 2019", image: UIImage(named: "box")!),
+    Order(title: "October 2019", image: UIImage(named: "box")!),
+    Order(title: "September 2019", image: UIImage(named: "box")!)]
 
     let tableView =  UITableView()
 
@@ -43,7 +41,7 @@ class PastOrderViewController: UIViewController {
 
 }
 
-extension PastOrderViewController: UITableViewDataSource, UITableViewDelegate {
+extension OrderList: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return orders.count
     }
@@ -58,12 +56,6 @@ extension PastOrderViewController: UITableViewDataSource, UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100.0
-    }
-    
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("selected!")
-        let nextVC: OrderList = OrderList()
-        self.navigationController?.pushViewController(nextVC, animated: true)
     }
 
 }
