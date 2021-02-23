@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7A41C54125E517DB00A69D42 /* NewItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A41C54025E517DB00A69D42 /* NewItemCell.swift */; };
+		7A41C54425E51EBF00A69D42 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A41C54325E51EBF00A69D42 /* Item.swift */; };
+		7A41C54725E531A400A69D42 /* PastOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A41C54625E531A400A69D42 /* PastOrderCell.swift */; };
 		7AFA607C25E41EE2002A8FAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFA607B25E41EE2002A8FAC /* AppDelegate.swift */; };
 		7AFA607E25E41EE2002A8FAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFA607D25E41EE2002A8FAC /* SceneDelegate.swift */; };
 		7AFA608525E41EE3002A8FAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AFA608425E41EE3002A8FAC /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		7A41C54025E517DB00A69D42 /* NewItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemCell.swift; sourceTree = "<group>"; };
+		7A41C54325E51EBF00A69D42 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		7A41C54625E531A400A69D42 /* PastOrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOrderCell.swift; sourceTree = "<group>"; };
 		7AFA607825E41EE2002A8FAC /* Bot-Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bot-Shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AFA607B25E41EE2002A8FAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AFA607D25E41EE2002A8FAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 				7AFA609625E431C6002A8FAC /* PastOrderViewController.swift */,
 				7AFA609925E43267002A8FAC /* TabBarController.swift */,
 				7A41C54025E517DB00A69D42 /* NewItemCell.swift */,
+				7A41C54325E51EBF00A69D42 /* Item.swift */,
+				7A41C54625E531A400A69D42 /* PastOrderCell.swift */,
 			);
 			path = "Bot-Shop";
 			sourceTree = "<group>";
@@ -144,8 +150,10 @@
 			files = (
 				7AFA609325E43167002A8FAC /* NewOrderViewController.swift in Sources */,
 				7AFA607C25E41EE2002A8FAC /* AppDelegate.swift in Sources */,
+				7A41C54725E531A400A69D42 /* PastOrderCell.swift in Sources */,
 				7AFA607E25E41EE2002A8FAC /* SceneDelegate.swift in Sources */,
 				7AFA609A25E43267002A8FAC /* TabBarController.swift in Sources */,
+				7A41C54425E51EBF00A69D42 /* Item.swift in Sources */,
 				7AFA609725E431C6002A8FAC /* PastOrderViewController.swift in Sources */,
 				7A41C54125E517DB00A69D42 /* NewItemCell.swift in Sources */,
 			);
