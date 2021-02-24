@@ -11,4 +11,5 @@ import UIKit
 struct Order {
     let title: String
     let image: UIImage
+    var items: [Item]
 }
